@@ -34,16 +34,3 @@ class person:
         print("time : ",self.start_time,":00 - ", self.end_time,":00")
             
         
-        
-
-P=person()
-for i in range(0,5):
-    P.addStacks()
-
-P.setMentorOrLearner()
-P.setAvailableTime()
-#print(P.getMentor(11,2,'ML'))
-if P.getMentor(11,14,"ML") == 1:
-    P.display("ML")
-else :
-    print("Mentor not available at the specified duration !!")
